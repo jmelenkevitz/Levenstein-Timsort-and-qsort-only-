@@ -1,0 +1,46 @@
+﻿Build started 11/3/2014 11:55:58 AM.
+     1>Project "C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\LevensteinDll\LevensteinDll.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LEVENSTEINDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\LevensteinDll.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LEVENSTEINDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LevensteinDll.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt binarysearch.cpp LevensteinDll.cpp QuickSort.cpp sort.cpp
+         sort.cpp
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort_common.h(71): warning C4244: 'return' : conversion from 'const uint64_t' to 'int', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort_common.h(74): warning C4244: 'return' : conversion from 'const uint64_t' to 'int', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.h(28): warning C4091: 'extern ' : ignored on left of 'words' when no variable is declared
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.cpp(52): warning C4244: 'argument' : conversion from 'uint64_t' to 'const int', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.cpp(53): warning C4244: 'argument' : conversion from 'uint64_t' to 'int', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.cpp(83): warning C4244: 'argument' : conversion from 'const int64_t' to 'const size_t', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.cpp(87): warning C4244: 'argument' : conversion from 'const int64_t' to 'size_t', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.cpp(111): warning C4244: 'argument' : conversion from 'const int64_t' to 'size_t', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.cpp(207): warning C4244: 'argument' : conversion from 'uint64_t' to 'const size_t', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.cpp(219): warning C4244: 'argument' : conversion from 'uint64_t' to 'const int', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.cpp(374): warning C4244: 'argument' : conversion from 'uint64_t' to 'const size_t', possible loss of data
+         QuickSort.cpp
+         LevensteinDll.cpp
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort_common.h(71): warning C4244: 'return' : conversion from 'const uint64_t' to 'int', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort_common.h(74): warning C4244: 'return' : conversion from 'const uint64_t' to 'int', possible loss of data
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.h(28): warning C4091: 'extern ' : ignored on left of 'words' when no variable is declared
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\quicksort.h(2): warning C4005: 'MAXLENGTH' : macro redefinition
+                 c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\sort.h(7) : see previous definition of 'MAXLENGTH'
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\levensteindll.cpp(39): warning C4101: 'ifirst' : unreferenced local variable
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\levensteindll.cpp(39): warning C4101: 'isecond' : unreferenced local variable
+         binarysearch.cpp
+     1>c:\extra projects\levensteinprojects\levenstein(timsort and qsort only)\levensteindll\binarysearch.cpp(14): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LEVENSTEINDLL_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\LevensteinDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\LevensteinDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\LevensteinDll.lib" /MACHINE:X86 /DLL Debug\binarysearch.obj
+         Debug\dllmain.obj
+         Debug\LevensteinDll.obj
+         Debug\QuickSort.obj
+         Debug\sort.obj
+         Debug\stdafx.obj
+            Creating library C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\LevensteinDll.lib and object C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\LevensteinDll.exp
+         LevensteinDll.vcxproj -> C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\LevensteinDll.dll
+     1>Done Building Project "C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\LevensteinDll\LevensteinDll.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13

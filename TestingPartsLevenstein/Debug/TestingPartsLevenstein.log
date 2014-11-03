@@ -1,0 +1,17 @@
+﻿Build started 11/3/2014 11:55:59 AM.
+     1>Project "C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\TestingPartsLevenstein\TestingPartsLevenstein.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\TestingPartsLevenstein.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestingPartsLevenstein.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TestingPartsLevenstein.cpp
+         TestingPartsLevenstein.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\TestingPartsLevenstein.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\TestingPartsLevenstein.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\TestingPartsLevenstein.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\TestingPartsLevenstein.obj
+         "C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\LevensteinDll.lib"
+         TestingPartsLevenstein.vcxproj -> C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\Debug\TestingPartsLevenstein.exe
+     1>Done Building Project "C:\Extra Projects\LevensteinProjects\Levenstein(Timsort and qsort only)\TestingPartsLevenstein\TestingPartsLevenstein.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.89
